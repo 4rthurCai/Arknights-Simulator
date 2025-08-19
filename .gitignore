@@ -1,0 +1,18 @@
+# forbidden
+*.sqlite
+*.md
+.env
+.DS_Store
+
+# allowed
+!README.md
+!CHANGELOG.md
+!CLAUDE.md
+!LICENSE
+!LICENSE.md
+!*.py
+!.env.example
+!*.toml
+!requirements.txt
+!*.json
+!*.yaml
