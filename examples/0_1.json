@@ -1,0 +1,52 @@
+{
+  "stage_id": "main_00-01",
+  "description": "0-1关卡进阶示例，使用阿米娅和芬配合通关",
+  "operators": [
+    {
+      "operator_id": "char_123_fang",
+      "custom_id": "fang_1",
+      "level": 30,
+      "elite": 0,
+      "potential": 6,
+      "skill_level": 7
+    },
+    {
+      "operator_id": "char_002_amiya",
+      "custom_id": "amiya_1",
+      "level": 40,
+      "elite": 1,
+      "potential": 0,
+      "skill_level": 6
+    }
+  ],
+  "actions": [
+    {
+      "type": "DEPLOY",
+      "time": 1.0,
+      "operator_id": "fang_1",
+      "position": {
+        "row": 3,
+        "col": 3
+      },
+      "direction": "RIGHT",
+      "comment": "先部署芬阻挡敌人"
+    },
+    {
+      "type": "DEPLOY",
+      "time": 22.0,
+      "operator_id": "amiya_1",
+      "position": {
+        "row": 3,
+        "col": 2
+      },
+      "direction": "RIGHT",
+      "comment": "等费用足够后部署阿米娅输出"
+    },
+    {
+      "type": "ACTIVATE_SKILL",
+      "time": 25.0,
+      "operator_id": "amiya_1",
+      "comment": "激活阿米娅技能增加输出"
+    }
+  ]
+}
